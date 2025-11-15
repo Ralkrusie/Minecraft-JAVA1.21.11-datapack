@@ -1,0 +1,97 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "恶魔契约",
+    "color": "dark_red"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -4,
+          "per_level_above_first": -4
+        },
+        "attribute": "minecraft:max_health",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.5,
+          "per_level_above_first": 0.5
+        },
+        "attribute": "minecraft:luck",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.5,
+          "per_level_above_first": 1.5
+        },
+        "attribute": "minecraft:attack_damage",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "minecraft:attack_speed",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "minecraft:block_interaction_range",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.02,
+          "per_level_above_first": 0.02
+        },
+        "attribute": "minecraft:movement_speed",
+        "id": "rks_lite:enchantment.contract",
+        "operation": "add_value"
+      }
+    ]
+    
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "armor"
+  ],
+  "exclusive_set": "#rks_lite:exclusive_set/choice",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

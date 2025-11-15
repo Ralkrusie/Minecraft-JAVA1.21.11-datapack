@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "滋养",
+    "color": "#8CE08C"
+  },
+  "effects": {
+    "minecraft:tick": [
+        {
+            "effect": {
+                "type": "run_function",
+                "function": "rks_lite:saturation"
+            }
+        }
+    ]
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 64,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand",
+    "head"
+  ],
+  "supported_items": [
+    "minecraft:totem_of_undying",
+    "minecraft:iron_helmet",
+    "minecraft:copper_helmet",
+    "minecraft:golden_helmet",
+    "minecraft:diamond_helmet",
+    "minecraft:netherite_helmet",
+    "minecraft:turtle_helmet",
+    "minecraft:leather_helmet",
+    "minecraft:chainmail_helmet"    
+],
+  "weight": 1
+}

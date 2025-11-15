@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+        "type": "minecraft:empty",
+        "weight": 1
+        },
+        {
+            "type": "minecraft:item",
+            "functions": [
+                {
+                "function": "minecraft:enchant_randomly",
+                "options": "rks_lite:warding"
+                }
+            ],
+            "name": "minecraft:book",
+            "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}

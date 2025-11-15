@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "AEA",
+            "BCB",
+            "ADA"
+        ],
+        "key":{
+            "A": "minecraft:ghast_tear",
+            "B": "minecraft:enchanted_golden_apple",
+            "C": "minecraft:nether_star",
+            "D": "minecraft:book",
+            "E": "minecraft:rib_armor_trim_smithing_template"
+        },
+    "result": {
+        "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:stored_enchantments": {
+                    "rks_lite:life": 1
+                }
+            },
+        "count": 1
+    }
+}

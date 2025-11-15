@@ -1,0 +1,57 @@
+{
+  "anvil_cost": 30,
+  "description": {
+    "translate": "护佑",
+    "color": "#8CE08C"
+  },
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 5.0,
+            "per_level_above_first": 5.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:tick": [
+        {
+            "effect": {
+                "type": "run_function",
+                "function": "rks_lite:warding"
+            }
+        }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": [
+    "minecraft:totem_of_undying",
+    "minecraft:shield"
+  ],
+  "weight": 1
+}

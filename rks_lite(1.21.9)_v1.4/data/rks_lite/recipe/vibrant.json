@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "AEA",
+            "BCB",
+            "ADA"
+        ],
+        "key":{
+            "A": "minecraft:sugar",
+            "E": "minecraft:flow_armor_trim_smithing_template",
+            "C": "minecraft:nether_star",
+            "D": "minecraft:book",
+            "B": "minecraft:enchanted_golden_apple"
+        },
+    "result": {
+        "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:stored_enchantments": {
+                    "rks_lite:vibrant": 1
+                }
+            },
+        "count": 1
+    }
+}

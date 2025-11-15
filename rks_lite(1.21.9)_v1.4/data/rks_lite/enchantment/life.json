@@ -1,0 +1,41 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "愈伤",
+    "color": "#8CE08C"
+  },
+  "effects": {
+    "minecraft:tick": [
+        {
+            "effect": {
+                "type": "run_function",
+                "function": "rks_lite:life"
+            }
+        }
+    ]
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 64,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand",
+    "chest"
+  ],
+  "supported_items": [
+    "minecraft:totem_of_undying",
+    "minecraft:iron_chestplate",
+    "minecraft:copper_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate"
+],
+  "weight": 1
+}

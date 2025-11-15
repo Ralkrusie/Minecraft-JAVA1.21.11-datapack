@@ -1,0 +1,47 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "太空漫游者",
+    "color": "#00CED1"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.03,
+          "per_level_above_first": -0.027
+        },
+        "attribute": "minecraft:gravity",
+        "id": "rks_lite:enchantment.taiko",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.5,
+          "per_level_above_first": -0.25
+        },
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "rks_lite:enchantment.taiko",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/boots",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "exclusive_set": "#rks_lite:exclusive_set/explore",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

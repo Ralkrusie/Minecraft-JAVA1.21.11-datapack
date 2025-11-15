@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 16,
+  "description": {
+    "translate": "无限 Ultra",
+    "color": "light_purple"
+  },
+  "effects": {
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0.0
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:arrow",
+              "minecraft:tipped_arrow",
+              "minecraft:spectral_arrow",
+              "minecraft:firework_rocket"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 64,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:bow", 
+    "minecraft:crossbow"
+  ],
+
+  "weight": 1
+}

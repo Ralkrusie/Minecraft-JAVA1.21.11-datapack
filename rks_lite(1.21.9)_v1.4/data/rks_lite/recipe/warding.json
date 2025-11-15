@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+        "pattern": [
+            "AEA",
+            "CBC",
+            "ADA"
+        ],
+        "key":{
+            "A": "minecraft:golden_apple",
+            "E": "minecraft:ward_armor_trim_smithing_template",
+            "D": "minecraft:book",
+            "B": "minecraft:nether_star",
+            "C": "netherite_ingot"
+        },
+    "result": {
+        "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:stored_enchantments": {
+                    "rks_lite:warding": 1
+                }
+            },
+        "count": 1
+    }
+}
