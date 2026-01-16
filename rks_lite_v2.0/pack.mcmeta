@@ -1,6 +1,6 @@
 {
     "pack":{
-        "description": "rks_lite数据包for 1.21.9, v1.4",
+        "description": "rks_lite数据包for 1.21.9+, v2.0",
         "pack_format": 71,
         "supported_formats": [48, 81],
         "min_format": 48,
