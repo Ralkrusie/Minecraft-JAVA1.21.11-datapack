@@ -1,0 +1,77 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "轻盈",
+    "color": "#55e3ff"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.4,
+          "per_level_above_first": 0.4
+        },
+        "attribute": "minecraft:movement_speed",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.4,
+          "per_level_above_first": 0.4
+        },
+        "attribute": "minecraft:jump_strength",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.04,
+          "per_level_above_first": 0.04
+        },
+        "attribute": "minecraft:flying_speed",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_value"
+      }
+    ]
+    
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": ["body"],
+  "supported_items": [
+    "minecraft:diamond_horse_armor",
+    "minecraft:iron_horse_armor",
+    "minecraft:golden_horse_armor",
+    "minecraft:leather_horse_armor",
+    "minecraft:copper_horse_armor",
+    "minecraft:wolf_armor",
+    "minecraft:white_harness",
+    "minecraft:light_gray_harness",
+    "minecraft:gray_harness",
+    "minecraft:black_harness",
+    "minecraft:brown_harness",
+    "minecraft:red_harness",
+    "minecraft:orange_harness",
+    "minecraft:yellow_harness",
+    "minecraft:lime_harness",
+    "minecraft:green_harness",
+    "minecraft:cyan_harness",
+    "minecraft:light_blue_harness",
+    "minecraft:blue_harness",
+    "minecraft:purple_harness",
+    "minecraft:magenta_harness",
+    "minecraft:pink_harness"
+],
+  "weight": 1
+}

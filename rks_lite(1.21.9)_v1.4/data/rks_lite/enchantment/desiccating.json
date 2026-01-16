@@ -1,0 +1,54 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "干涸撕咬",
+		"color": "#C2A36C"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:slowness",
+					"min_duration": 5.0,
+					"max_duration": 5.0,
+					"min_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0.0,
+						"per_level_above_first": 1.0
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0.0,
+						"per_level_above_first": 1.0
+					}
+				}
+			}
+		]
+	},
+	"exclusive_set": "minecraft:fire_aspect",
+	"max_cost": {
+		"base": 20,
+		"per_level_above_first": 10
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": [
+		"minecraft:wooden_sword",
+		"minecraft:stone_sword",
+		"minecraft:iron_sword",
+		"minecraft:copper_sword",
+		"minecraft:golden_sword",
+		"minecraft:diamond_sword",
+		"minecraft:netherite_sword"
+	],
+	"weight": 2
+}
