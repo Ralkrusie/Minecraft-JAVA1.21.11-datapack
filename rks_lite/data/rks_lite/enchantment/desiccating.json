@@ -12,12 +12,12 @@
 				"effect": {
 					"type": "minecraft:apply_mob_effect",
 					"to_apply": "minecraft:slowness",
-					"min_duration": 5.0,
-					"max_duration": 5.0,
+					"min_duration": 6.0,
+					"max_duration": 6.0,
 					"min_amplifier": {
 						"type": "minecraft:linear",
-						"base": 0.0,
-						"per_level_above_first": 1.0
+						"base": 1.0,
+						"per_level_above_first": 2.0
 					},
 					"max_amplifier": {
 						"type": "minecraft:linear",
@@ -48,7 +48,13 @@
 		"minecraft:copper_sword",
 		"minecraft:golden_sword",
 		"minecraft:diamond_sword",
-		"minecraft:netherite_sword"
+		"minecraft:netherite_sword",
+		"minecraft:wooden_axe",
+		"minecraft:stone_axe",
+		"minecraft:iron_axe",
+		"minecraft:diamond_axe",
+		"minecraft:golden_axe",
+		"minecraft:netherite_axe"
 	],
 	"weight": 2
 }

@@ -1,22 +1,10 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "熔岩舞者",
-    "color": "#FF5733"
+    "translate": "天行者",
+    "color": "light_purple"
   },
   "effects": {
-    "attributes": [
-      {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": -0.2,
-          "per_level_above_first": -0.2
-        },
-        "attribute": "minecraft:burning_time",
-        "id": "rks_lite:enchantment.magma_dancer",
-        "operation": "add_value"
-      }
-    ],
     "minecraft:damage_immunity": [
       {
         "effect": {},
@@ -26,7 +14,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft:burn_from_stepping"
+                "id": "rks_lite:nature_thorn"
               },
               {
                 "expected": false,
@@ -44,7 +32,10 @@
           "block_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:magma_block"
+              "Name": "minecraft:cherry_leaves",
+                "Properties": {
+                "persistent": "false"
+              }
             }
           },
           "height": 1.0,
@@ -67,11 +58,7 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:lava"
-              },
-              {
-                "type": "minecraft:matching_fluids",
-                "fluids": "minecraft:lava"
+                "blocks": "minecraft:air"
               },
               {
                 "type": "minecraft:unobstructed"
@@ -80,12 +67,12 @@
           },
           "radius": {
             "type": "minecraft:clamped",
-            "max": 16.0,
+            "max": 2.0,
             "min": 0.0,
             "value": {
               "type": "minecraft:linear",
-              "base": 3.0,
-              "per_level_above_first": 1.0
+              "base": 2.0,
+              "per_level_above_first": 0.0
             }
           },
           "trigger_game_event": "minecraft:block_place"
@@ -93,15 +80,6 @@
         "requirements": {
           "condition": "minecraft:all_of",
           "terms": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "flags": {
-                  "is_on_ground": true
-                }
-              }
-            },
             {
               "condition": "minecraft:inverted",
               "term": {
@@ -111,18 +89,29 @@
                   "vehicle": {}
                 }
               }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_sneaking": true
+                  }
+                }
+              }
             }
           ]
         }
       }
     ]
   },
-  "exclusive_set": "minecraft:frost_walker",
   "max_cost": {
     "base": 25,
     "per_level_above_first": 10
   },
-  "max_level": 2,
+  "max_level": 1,
   "min_cost": {
     "base": 10,
     "per_level_above_first": 10

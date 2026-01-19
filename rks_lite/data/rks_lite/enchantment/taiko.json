@@ -25,16 +25,6 @@
         "attribute": "minecraft:fall_damage_multiplier",
         "id": "rks_lite:enchantment.taiko",
         "operation": "add_value"
-      },
-      {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.0
-        },
-        "attribute": "minecraft:step_height",
-        "id": "rks_lite:enchantment.taiko",
-        "operation": "add_value"
       }
     ]
   },
