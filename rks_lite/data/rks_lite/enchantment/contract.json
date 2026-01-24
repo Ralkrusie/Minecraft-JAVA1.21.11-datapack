@@ -20,7 +20,7 @@
         "amount": {
           "type": "minecraft:linear",
           "base": -0.5,
-          "per_level_above_first": 0.5
+          "per_level_above_first": -0.5
         },
         "attribute": "minecraft:luck",
         "id": "rks_lite:enchantment.contract",
@@ -69,8 +69,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.02,
-          "per_level_above_first": 0.02
+          "base": 0.01,
+          "per_level_above_first": 0.01
         },
         "attribute": "minecraft:movement_speed",
         "id": "rks_lite:enchantment.contract",

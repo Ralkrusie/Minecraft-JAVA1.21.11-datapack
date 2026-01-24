@@ -2,7 +2,7 @@
   "anvil_cost": 1,
   "description": {
     "translate": "如履平地",
-    "color": "#FFFFAA"
+    "color": "#8CE08C"
   },
   "effects": {
     "minecraft:attributes": [
@@ -15,9 +15,18 @@
         "attribute": "minecraft:step_height",
         "id": "rks_lite:enchantment.high_step",
         "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:jump_strength",
+        "id": "rks_lite:enchantment.high_step",
+        "operation": "add_value"
       }
     ]
-    
   },
   "max_cost": {
     "base": 12,

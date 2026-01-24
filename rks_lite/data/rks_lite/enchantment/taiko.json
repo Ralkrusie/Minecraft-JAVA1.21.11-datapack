@@ -9,8 +9,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": -0.03,
-          "per_level_above_first": -0.027
+          "base": -0.02,
+          "per_level_above_first": -0.032
         },
         "attribute": "minecraft:gravity",
         "id": "rks_lite:enchantment.taiko",
@@ -23,6 +23,16 @@
           "per_level_above_first": -0.25
         },
         "attribute": "minecraft:fall_damage_multiplier",
+        "id": "rks_lite:enchantment.taiko",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:jump_strength",
         "id": "rks_lite:enchantment.taiko",
         "operation": "add_value"
       }

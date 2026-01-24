@@ -1,42 +1,41 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 1,
   "description": {
-    "translate": "活力",
-    "color": "#8CE08C"
+    "translate": "大运",
+    "color": "light_purple"
   },
-
   "effects": {
     "minecraft:attributes": [
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.04,
-          "per_level_above_first": 0.04
+          "base": 2.5,
+          "per_level_above_first": 0.0
         },
         "attribute": "minecraft:movement_speed",
-        "id": "rks_lite:enchantment.vibrant",
+        "id": "rks_lite:enchantment.flash",
         "operation": "add_value"
       },
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.2,
-          "per_level_above_first": 0.2
+          "base": 1,
+          "per_level_above_first": 0.0
         },
         "attribute": "minecraft:movement_efficiency",
-        "id": "rks_lite:enchantment.vibrant",
+        "id": "rks_lite:enchantment.flash",
         "operation": "add_value"
       },
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.2,
-          "per_level_above_first": 0.2
+          "base": 1,
+          "per_level_above_first": 0.0
         },
         "attribute": "minecraft:water_movement_efficiency",
-        "id": "rks_lite:enchantment.vibrant",
+        "id": "rks_lite:enchantment.flash",
         "operation": "add_value"
-      }
+      }      
     ]
   },
   "max_cost": {
@@ -49,18 +48,15 @@
     "per_level_above_first": 11
   },
   "slots": [
-    "hand",
-    "legs"
+    "mainhand"
   ],
   "supported_items": [
-    "minecraft:totem_of_undying",
-    "minecraft:iron_leggings",
-    "minecraft:copper_leggings",
-    "minecraft:golden_leggings",
-    "minecraft:diamond_leggings",
-    "minecraft:netherite_leggings",
-    "minecraft:leather_leggings",
-    "minecraft:chainmail_leggings"
-  ],
+    "minecraft:wooden_spear",
+    "minecraft:stone_spear",
+    "minecraft:iron_spear",
+    "minecraft:golden_spear",
+    "minecraft:diamond_spear",
+    "minecraft:netherite_spear"
+    ],
   "weight": 1
 }

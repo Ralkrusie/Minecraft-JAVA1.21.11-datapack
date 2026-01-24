@@ -9,8 +9,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.4,
-          "per_level_above_first": 0.4
+          "base": 0.5,
+          "per_level_above_first": 0.5
         },
         "attribute": "minecraft:movement_speed",
         "id": "rks_lite:enchantment.agility",
@@ -19,8 +19,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.4,
-          "per_level_above_first": 0.4
+          "base": 0.5,
+          "per_level_above_first": 0.5
         },
         "attribute": "minecraft:jump_strength",
         "id": "rks_lite:enchantment.agility",
@@ -29,8 +29,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.04,
-          "per_level_above_first": 0.04
+          "base": 0.05,
+          "per_level_above_first": 0.05
         },
         "attribute": "minecraft:flying_speed",
         "id": "rks_lite:enchantment.agility",

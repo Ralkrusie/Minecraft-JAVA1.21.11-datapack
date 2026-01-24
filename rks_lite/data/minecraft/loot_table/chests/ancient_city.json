@@ -433,7 +433,7 @@
         "entries": [
             {
             "type": "minecraft:empty",
-            "weight": 13
+            "weight": 4
             },
             {
                 "type": "group",
