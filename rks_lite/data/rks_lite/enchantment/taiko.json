@@ -2,6 +2,7 @@
   "anvil_cost": 2,
   "description": {
     "translate": "太空漫游者",
+    "extra": [{"text": " 长大了，我要当太空人！", "color": "gray", "italic": true}],
     "color": "#00CED1"
   },
   "effects": {
@@ -48,9 +49,9 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "feet"
+    "armor"
   ],
   "exclusive_set": "#rks_lite:exclusive_set/explore",
   "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 2
+  "weight": 1
 }

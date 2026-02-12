@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "rks_lite:chaotic_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 112358,
+    "spacing": 40,
+    "separation": 20
+  }
+}

@@ -2,7 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "大运",
-    "color": "light_purple"
+    "color": "light_purple",
+    "extra": [{"text":" 我还以为减速带呢","color":"gray","italic":true}]
   },
   "effects": {
     "minecraft:attributes": [
@@ -35,7 +36,17 @@
         "attribute": "minecraft:water_movement_efficiency",
         "id": "rks_lite:enchantment.flash",
         "operation": "add_value"
-      }      
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:attack_damage",
+        "id": "rks_lite:enchantment.flash",
+        "operation": "add_multiplied_base"
+      }    
     ]
   },
   "max_cost": {
@@ -50,13 +61,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": [
-    "minecraft:wooden_spear",
-    "minecraft:stone_spear",
-    "minecraft:iron_spear",
-    "minecraft:golden_spear",
-    "minecraft:diamond_spear",
-    "minecraft:netherite_spear"
-    ],
+  "supported_items": "#minecraft:spears",
   "weight": 1
 }

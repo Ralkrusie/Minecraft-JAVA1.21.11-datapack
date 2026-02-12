@@ -2,7 +2,8 @@
   "anvil_cost": 6,
   "description": {
     "translate": "活力",
-    "color": "#8CE08C"
+    "color": "#8CE08C",
+    "extra": [{"text":" Speed Up!","color":"gray","italic":true}]
   },
 
   "effects": {
@@ -50,17 +51,8 @@
   },
   "slots": [
     "hand",
-    "legs"
+    "armor"
   ],
-  "supported_items": [
-    "minecraft:totem_of_undying",
-    "minecraft:iron_leggings",
-    "minecraft:copper_leggings",
-    "minecraft:golden_leggings",
-    "minecraft:diamond_leggings",
-    "minecraft:netherite_leggings",
-    "minecraft:leather_leggings",
-    "minecraft:chainmail_leggings"
-  ],
+  "supported_items": "#rks_lite:enchantable/totem_leg",
   "weight": 1
 }

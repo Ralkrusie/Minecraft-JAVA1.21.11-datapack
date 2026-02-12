@@ -1,8 +1,9 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "熔岩舞者",
-    "color": "#FF5733"
+    "translate": "熔岩行者",
+    "color": "#FF5733",
+    "extra": [{"text":" ","color":"gray","italic":true}]
   },
   "effects": {
     "attributes": [
@@ -80,11 +81,11 @@
           },
           "radius": {
             "type": "minecraft:clamped",
-            "max": 16.0,
+            "max": 10.0,
             "min": 0.0,
             "value": {
               "type": "minecraft:linear",
-              "base": 3.0,
+              "base": 2.0,
               "per_level_above_first": 1.0
             }
           },
@@ -127,8 +128,8 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "feet"
+    "armor"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 2
+  "weight": 1
 }

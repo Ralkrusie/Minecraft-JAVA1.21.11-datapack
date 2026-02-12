@@ -2,7 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "如履平地",
-    "color": "#8CE08C"
+    "color": "#8CE08C",
+    "extra": [{"text":" 增加行走高度，那么代价呢？","color":"gray","italic":true}]
   },
   "effects": {
     "minecraft:attributes": [
@@ -19,15 +20,26 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
+          "base": 0.2,
           "per_level_above_first": 0.0
         },
         "attribute": "minecraft:jump_strength",
         "id": "rks_lite:enchantment.high_step",
         "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "rks_lite:enchantment.high_step",
+        "operation": "add_value"
       }
     ]
   },
+  
   "max_cost": {
     "base": 12,
     "per_level_above_first": 11

@@ -1,9 +1,11 @@
 {
-  "anvil_cost": 30,
+  "anvil_cost": 1,
   "description": {
-    "translate": "护佑",
+    "translate": "坚韧",
     "color": "#8CE08C",
-    "extra": [{"text":" 抗性提升","color":"gray","italic":true}]
+    "extra": [
+      {"text": " 保护你的坐骑", "color": "gray", "italic": true}
+    ]
   },
   "effects": {
     "minecraft:damage_protection": [
@@ -12,8 +14,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 5.0,
-            "per_level_above_first": 5.0
+            "base": 4.0,
+            "per_level_above_first": 4.0
           }
         },
         "requirements": {
@@ -28,31 +30,21 @@
           }
         }
       }
-    ],
-    "minecraft:tick": [
-        {
-            "effect": {
-                "type": "run_function",
-                "function": "rks_lite:warding"
-            }
-        }
     ]
   },
+  "exclusive_set": "#minecraft:exclusive_set/armor",
   "max_cost": {
     "base": 12,
     "per_level_above_first": 11
   },
-  "max_level": 1,
+  "max_level": 4,
   "min_cost": {
     "base": 1,
     "per_level_above_first": 11
   },
   "slots": [
-    "hand"
+    "body"
   ],
-  "supported_items": [
-    "minecraft:totem_of_undying",
-    "minecraft:shield"
-  ],
-  "weight": 1
+  "supported_items": "#rks_lite:enchantable/mount_armor",
+  "weight": 10
 }

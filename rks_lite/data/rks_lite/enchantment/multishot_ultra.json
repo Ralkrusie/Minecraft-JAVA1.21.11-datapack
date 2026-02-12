@@ -1,0 +1,51 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "多重射击+",
+    "color": "light_purple",
+    "extra": [{"text":" 万箭齐发!","color":"gray","italic":true}]
+  },
+  "effects": {
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base":3,
+            "per_level_above_first": 3.0
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:crossbow",
+    "minecraft:bow"
+  ],
+  "weight": 1
+}

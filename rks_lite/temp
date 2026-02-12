@@ -1,0 +1,365 @@
+=============================格式示例=============================
+
+
+summon wandering_trader ~ ~ ~ {
+    CustomName:"巴巴博一",
+    CustomNameVisible:true,
+    Glowing:true,
+    Invulnerable:true,
+    Tags:["special_villager"],
+    PersistenceRequired: true,
+    Offers:{
+        Recipes:[
+        {
+            maxUses:9999999,
+            buy:{
+                id:"minecraft:heart_of_the_sea",
+                count:3,
+                components:{
+                    custom_data:{"is_money": true},
+                    custom_name:{"text":"魔丸","italic":false,"color":"yellow"}
+                }
+            },
+            sell:{
+                id:"minecraft:netherite_ingot",
+                count:1,
+            }
+        },
+        {
+            maxUses:9999999,
+            buy:{
+                id:"minecraft:netherite_ingot",
+                count:1,
+            },
+            sell:{
+                id:"minecraft:heart_of_the_sea",
+                count:2,
+                components:{
+                    lore:[{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+                    custom_data:{"is_money": true},
+                    custom_name:{"text":"魔丸","italic":false,"color":"yellow"},
+                    enchantments:{"rks_lite:money":1}
+                }
+            }
+        },
+        {
+            maxUses:9999999,
+            buy:{
+                id:"minecraft:heart_of_the_sea",
+                count:3,
+                components:{
+                    custom_data:{"is_money": true},
+                    custom_name:{"text":"魔丸","italic":false,"color":"yellow"}
+                }
+            },
+            sell:{
+                id:"minecraft:elytra",
+                count:1,
+                components:{
+                    enchantments:{"minecraft:unbreaking":3,"minecraft:mending":1},
+                }
+            }
+        }
+        ]
+    }
+}
+
+
+======================================商人1======================================
+
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:netherite_ingot",
+        count: 1
+    },
+    sell: {
+        id: "minecraft:heart_of_the_sea",
+        count: 2,
+        components: {
+            lore: [{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"},
+            enchantments: {"rks_lite:money": 1}
+        }
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:enchanted_golden_apple",
+        count: 1
+    },
+    sell: {
+        id: "minecraft:heart_of_the_sea",
+        count: 2,
+        components: {
+            lore: [{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"},
+            enchantments: {"rks_lite:money": 1}
+        }
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:diamond",
+        count: 64
+    },
+    sell: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            lore: [{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"},
+            enchantments: {"rks_lite:money": 1}
+        }
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:echo_shard",
+        count: 6
+    },
+    sell: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            lore: [{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"},
+            enchantments: {"rks_lite:money": 1}
+        }
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:sponge",
+        count: 24
+    },
+    sell: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            lore: [{"text":"你不觉得这玩意更像灵珠吗？","color":"gray","italic":true}],
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"},
+            enchantments: {"rks_lite:money": 1}
+        }
+    }
+}
+
+
+======================================商人2====================================
+
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 3,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:netherite_ingot",
+        count: 1
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:diamond",
+        count: 48
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:wet_sponge",
+        count: 16
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:echo_shard",
+        count: 4
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:iron_block",
+        count: 16
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 6,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:budding_amethyst",
+        count: 1
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 2,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:reinforced_deepslate",
+        count: 1
+    }
+}
+
+
+==============================商人3=============================
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 2,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:elytra",
+        count: 1
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:cooked_beef",
+        count: 64
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:golden_carrot",
+        count: 32
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:potion",
+        count: 1,
+        components: {
+            "minecraft:potion_contents": {
+                "potion": "minecraft:luck"
+            }
+        }
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:phantom_membrane",
+        count: 64
+    }
+},
+{
+    maxUses: 9999999,
+    buy: {
+        id: "minecraft:heart_of_the_sea",
+        count: 1,
+        components: {
+            custom_data: {"is_money": true},
+            custom_name: {"text": "魔丸", "italic": false, "color": "yellow"}
+        }
+    },
+    sell: {
+        id: "minecraft:phantom_spawn_egg",
+        count: 2
+    }
+}
+
+
+
+

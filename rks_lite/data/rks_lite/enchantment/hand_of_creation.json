@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "创造之手",
+    "color": "yellow"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:block_interaction_range",
+        "id": "rks_lite:enchantment.hand_of_creation",
+        "operation": "add_value"
+      }
+    ]
+  },
+  
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": ["minecraft:totem_of_undying"],
+  "weight": 1
+}

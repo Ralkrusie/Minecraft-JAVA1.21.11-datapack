@@ -2,8 +2,10 @@
   "anvil_cost": 4,
   "description": {
     "translate": "神圣恩典",
-    "color": "#FFFFAA"
+    "color": "#FFFFAA",
+    "extra": [{"text":" 可我觉得这很神圣啊！","color":"gray","italic":true}]
   },
+
   "effects": {
     "minecraft:attributes": [
       {
@@ -39,8 +41,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": -0.15,
-          "per_level_above_first": -0.15
+          "base": -0.1,
+          "per_level_above_first": -0.1
         },
         "attribute": "minecraft:fall_damage_multiplier",
         "id": "rks_lite:enchantment.grace",
@@ -99,8 +101,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 1,
-          "per_level_above_first": 1
+          "base": 0.5,
+          "per_level_above_first": 0.5
         },
         "attribute": "minecraft:luck",
         "id": "rks_lite:enchantment.grace",

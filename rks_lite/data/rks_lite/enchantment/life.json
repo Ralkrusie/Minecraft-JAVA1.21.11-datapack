@@ -2,7 +2,8 @@
   "anvil_cost": 10,
   "description": {
     "translate": "愈伤",
-    "color": "#8CE08C"
+    "color": "#8CE08C",
+    "extra": [{"text":" 无惧疼痛","color":"gray","italic":true}]
   },
   "effects": {
     "minecraft:tick": [
@@ -25,17 +26,8 @@
   },
   "slots": [
     "hand",
-    "chest"
+    "armor"
   ],
-  "supported_items": [
-    "minecraft:totem_of_undying",
-    "minecraft:iron_chestplate",
-    "minecraft:copper_chestplate",
-    "minecraft:golden_chestplate",
-    "minecraft:diamond_chestplate",
-    "minecraft:netherite_chestplate",
-    "minecraft:leather_chestplate",
-    "minecraft:chainmail_chestplate"
-],
+  "supported_items": "#rks_lite:enchantable/totem_chest",
   "weight": 1
 }

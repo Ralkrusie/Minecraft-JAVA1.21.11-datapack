@@ -2,7 +2,8 @@
   "anvil_cost": 4,
   "description": {
     "translate": "滋养",
-    "color": "#8CE08C"
+    "color": "#8CE08C",
+    "extra": [{"text":" 别饿死","color":"gray","italic":true}]
   },
   "effects": {
     "minecraft:tick": [
@@ -25,18 +26,8 @@
   },
   "slots": [
     "hand",
-    "head"
+    "armor"
   ],
-  "supported_items": [
-    "minecraft:totem_of_undying",
-    "minecraft:iron_helmet",
-    "minecraft:copper_helmet",
-    "minecraft:golden_helmet",
-    "minecraft:diamond_helmet",
-    "minecraft:netherite_helmet",
-    "minecraft:turtle_helmet",
-    "minecraft:leather_helmet",
-    "minecraft:chainmail_helmet"    
-],
+  "supported_items": "#rks_lite:enchantable/totem_head",
   "weight": 1
 }
