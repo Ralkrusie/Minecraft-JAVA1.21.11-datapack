@@ -1,11 +1,8 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "轻盈",
-    "color": "#55e3ff",
-    "extra": [
-      {"text": " 大幅提升坐骑的机动性", "color": "gray", "italic": true}
-    ]
+    "translate": "敏捷",
+    "color": "#55e3ff"
   },
   "effects": {
     "minecraft:attributes": [
@@ -46,6 +43,26 @@
           "per_level_above_first": 0.1
         },
         "attribute": "minecraft:water_movement_efficiency",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_value"
+      },
+    {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 5,
+          "per_level_above_first": 5
+        },
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:fall_damage_multiplier",
         "id": "rks_lite:enchantment.agility",
         "operation": "add_value"
       }

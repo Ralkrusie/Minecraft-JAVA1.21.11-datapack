@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "虚无",
+    "color": "#71009e"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -1,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:waypoint_transmit_range",
+        "id": "rks_lite:enchantment.isolation",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -1,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:waypoint_receive_range",
+        "id": "rks_lite:enchantment.isolation",
+        "operation": "add_multiplied_total"
+      } 
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand",
+    "armor"
+  ],
+  "supported_items": "#rks_lite:enchantable/totem_armor",
+  "weight": 1
+}

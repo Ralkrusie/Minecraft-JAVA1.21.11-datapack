@@ -1,0 +1,18 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"open_chaotic_ruin_loot": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "rks_lite:chests/chaotic_ruin"
+			}
+		}
+	},
+    "display": {
+    "icon": {
+        "id": "minecraft:structure_block"
+    },
+    "title": "混沌",
+    "description": "打开混沌遗迹的宝箱"
+	}
+}

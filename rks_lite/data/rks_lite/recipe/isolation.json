@@ -6,20 +6,20 @@
             "ADA"
         ],
         "key":{
-            "A": "minecraft:ghast_tear",
-            "B": "minecraft:enchanted_golden_apple",
-            "C": "minecraft:nether_star",
+            "A": "minecraft:ender_eye",
+            "B": "minecraft:amethyst_shard",
+            "C": "minecraft:recovery_compass",
             "D": "minecraft:book",
-            "E": "minecraft:rib_armor_trim_smithing_template"
+            "E": "minecraft:silence_armor_trim_smithing_template"
         },
     "result": {
         "id": "minecraft:enchanted_book",
             "components": {
                 "minecraft:stored_enchantments": {
-                    "rks_lite:life": 1
+                    "rks_lite:isolation": 1
                 },
                 "minecraft:enchantments": {
-                    "rks_lite:life": 1
+                    "rks_lite:isolation": 1
                 }
             },
         "count": 1

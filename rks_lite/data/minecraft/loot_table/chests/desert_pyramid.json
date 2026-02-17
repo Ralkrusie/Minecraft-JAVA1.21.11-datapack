@@ -298,16 +298,43 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "rks_lite:desiccating"
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "rks_lite:desiccating": 1
+                },
+                "minecraft:stored_enchantments": {
+                  "rks_lite:desiccating": 1
+                },
+                "lore": [{"text": " 缓慢附加", "color": "gray", "italic": true}]
+              }
             }
           ],
-          "name": "minecraft:book",
+          "name": "minecraft:enchanted_book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "rks_lite:desiccating": 2
+                },
+                "minecraft:stored_enchantments": {
+                  "rks_lite:desiccating": 2
+                },
+                "lore": [{"text": " 缓慢附加", "color": "gray", "italic": true}]
+              }
+            }
+          ],
+          "name": "minecraft:enchanted_book",
           "weight": 1
         },
         {
           "type": "minecraft:empty",
-          "weight": 3
+          "weight": 6
         }
       ],
       "rolls": 1.0

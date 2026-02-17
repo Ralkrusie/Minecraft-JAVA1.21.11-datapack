@@ -2,8 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "熔岩行者",
-    "color": "#FF5733",
-    "extra": [{"text":" ","color":"gray","italic":true}]
+    "color": "#FF5733"
   },
   "effects": {
     "attributes": [
@@ -128,7 +127,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "armor"
+    "feet"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
   "weight": 1

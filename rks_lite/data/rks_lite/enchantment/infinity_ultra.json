@@ -2,8 +2,7 @@
   "anvil_cost": 16,
   "description": {
     "translate": "无限+",
-    "color": "light_purple",
-    "extra": [{"text":" ！？强强？！","color":"gray","italic":true}]
+    "color": "light_purple"
   },
   "effects": {
     "minecraft:ammo_use": [

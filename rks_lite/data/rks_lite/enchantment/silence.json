@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "幽静",
+    "color": "light_purple"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -1,
+          "per_level_above_first": 0.0
+        },
+        "attribute": "minecraft:waypoint_transmit_range",
+        "id": "rks_lite:enchantment.silence",
+        "operation": "add_multiplied_total"
+      }
+    ],
+    "minecraft:tick": [
+        {
+            "effect": {
+                "type": "run_function",
+                "function": "rks_lite:silence"
+            }
+        }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "hand",
+    "armor"
+  ],
+  "supported_items": "#rks_lite:enchantable/totem_armor",
+  "weight": 1
+}

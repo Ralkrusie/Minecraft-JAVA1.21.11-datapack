@@ -2,8 +2,7 @@
   "anvil_cost": 30,
   "description": {
     "translate": "护佑",
-    "color": "#8CE08C",
-    "extra": [{"text":" 抗性提升","color":"gray","italic":true}]
+    "color": "#8CE08C"
   },
   "effects": {
     "minecraft:damage_protection": [

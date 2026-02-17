@@ -1,0 +1,96 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "变大",
+    "color": "light_purple"
+  },
+  "effects": {
+    "minecraft:attributes": [
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+            },
+            "attribute": "minecraft:scale",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_multiplied_base"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+            },
+            "attribute": "minecraft:block_interaction_range",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_value"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+            },
+            "attribute": "minecraft:entity_interaction_range",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_value"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+            },
+            "attribute": "minecraft:step_height",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_multiplied_base"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.05
+            },
+            "attribute": "minecraft:jump_strength",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_multiplied_base"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.05
+            },
+            "attribute": "minecraft:movement_speed",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_multiplied_base"
+        },
+        {
+            "amount": {
+            "type": "minecraft:linear",
+            "base": 0.4,
+            "per_level_above_first": 0.2
+            },
+            "attribute": "minecraft:max_health",
+            "id": "rks_lite:enchantment.scale_up",
+            "operation": "add_multiplied_base"
+        }
+
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 99,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:chest_armor",
+  "weight": 1
+}

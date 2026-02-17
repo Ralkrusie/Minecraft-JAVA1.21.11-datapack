@@ -2,8 +2,7 @@
   "anvil_cost": 10,
   "description": {
     "translate": "愈伤",
-    "color": "#8CE08C",
-    "extra": [{"text":" 无惧疼痛","color":"gray","italic":true}]
+    "color": "#8CE08C"
   },
   "effects": {
     "minecraft:tick": [
@@ -26,7 +25,7 @@
   },
   "slots": [
     "hand",
-    "armor"
+    "chest"
   ],
   "supported_items": "#rks_lite:enchantable/totem_chest",
   "weight": 1

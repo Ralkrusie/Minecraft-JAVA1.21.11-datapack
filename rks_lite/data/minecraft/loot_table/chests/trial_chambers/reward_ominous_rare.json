@@ -73,6 +73,12 @@
             {
               "function": "minecraft:enchant_randomly",
               "options":"rks_lite:agility"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "lore": [{"text": "大幅提升坐骑的机动性", "color": "gray", "italic": true}]
+              }
             }
           ],
           "name": "minecraft:book",

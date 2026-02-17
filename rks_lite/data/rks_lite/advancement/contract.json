@@ -1,0 +1,25 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"get_grace_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:contract": 1}
+					    }
+                    }   
+				]
+			}
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "恶魔",
+		"description": "获得附魔书【恶魔契约】"
+	}
+}

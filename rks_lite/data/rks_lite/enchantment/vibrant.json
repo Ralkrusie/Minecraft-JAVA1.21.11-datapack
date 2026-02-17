@@ -2,8 +2,7 @@
   "anvil_cost": 6,
   "description": {
     "translate": "活力",
-    "color": "#8CE08C",
-    "extra": [{"text":" Speed Up!","color":"gray","italic":true}]
+    "color": "#8CE08C"
   },
 
   "effects": {
@@ -51,7 +50,7 @@
   },
   "slots": [
     "hand",
-    "armor"
+    "legs"
   ],
   "supported_items": "#rks_lite:enchantable/totem_leg",
   "weight": 1

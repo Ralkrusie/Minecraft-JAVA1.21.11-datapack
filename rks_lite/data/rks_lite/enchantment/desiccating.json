@@ -2,8 +2,7 @@
 	"anvil_cost": 4,
 	"description": {
 		"translate": "干涸撕咬",
-		"color": "#C2A36C",
-		"extra": [{"text":" 缓慢附加","color":"gray","italic":true}]
+		"color": "#C2A36C"
 	},
 	"effects": {
 		"minecraft:post_attack": [
@@ -13,8 +12,8 @@
 				"effect": {
 					"type": "minecraft:apply_mob_effect",
 					"to_apply": "minecraft:slowness",
-					"min_duration": 6.0,
-					"max_duration": 6.0,
+					"min_duration": 5.0,
+					"max_duration": 5.0,
 					"min_amplifier": {
 						"type": "minecraft:linear",
 						"base": 1.0,

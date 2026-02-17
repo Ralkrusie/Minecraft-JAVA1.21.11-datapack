@@ -444,6 +444,12 @@
                             {
                             "function": "minecraft:enchant_randomly",
                             "options": "rks_lite:contract"
+                            },
+                            {
+                              "function": "set_components",
+                              "components": {
+                                "lore": [{"text": "多么恐怖的诅咒之夜！", "color": "gray", "italic": true}]
+                              }
                             }
                         ],
                         "name": "minecraft:book",
@@ -455,6 +461,12 @@
                             {
                             "function": "minecraft:enchant_randomly",
                             "options": "rks_lite:grace"
+                            },
+                                                        {
+                              "function": "set_components",
+                              "components": {
+                                "lore": [{"text": "可是我觉得这很神圣啊！", "color": "gray", "italic": true}]
+                              }
                             }
                         ],
                         "name": "minecraft:book",

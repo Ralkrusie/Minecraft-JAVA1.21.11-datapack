@@ -2,8 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "天行者",
-    "color": "light_purple",
-    "extra": [{"text":" 云端漫步","color":"gray","italic":true}]
+    "color": "light_purple"
   },
   "effects": {
     "minecraft:damage_immunity": [
@@ -118,7 +117,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "armor"
+    "feet"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
   "weight": 1

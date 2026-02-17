@@ -2,8 +2,7 @@
   "anvil_cost": 1,
   "description": {
     "translate": "大运",
-    "color": "light_purple",
-    "extra": [{"text":" 我还以为减速带呢","color":"gray","italic":true}]
+    "color": "light_purple"
   },
   "effects": {
     "minecraft:attributes": [

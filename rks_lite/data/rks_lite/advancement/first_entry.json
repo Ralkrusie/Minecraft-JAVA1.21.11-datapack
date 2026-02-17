@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "first_entry": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    
+    "rewards": {
+        "function": "rks_lite:recipe"
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": "新的开始",
+        "description": "加载rks_lite数据包",
+        "background": "minecraft:block/gray_wool"
+    }
+}
+  

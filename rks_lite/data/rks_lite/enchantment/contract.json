@@ -2,8 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "恶魔契约",
-    "color": "dark_red",
-    "extra": [{"text":" 多么恐怖的诅咒之夜！","color":"gray","italic":true}]
+    "color": "dark_red"
   },
   "effects": {
     "minecraft:attributes": [

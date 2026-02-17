@@ -2,10 +2,7 @@
   "anvil_cost": 1,
   "description": {
     "translate": "坚韧",
-    "color": "#8CE08C",
-    "extra": [
-      {"text": " 保护你的坐骑", "color": "gray", "italic": true}
-    ]
+    "color": "#8CE08C"
   },
   "effects": {
     "minecraft:damage_protection": [

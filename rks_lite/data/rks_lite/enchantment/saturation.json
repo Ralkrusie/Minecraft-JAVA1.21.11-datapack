@@ -2,8 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "滋养",
-    "color": "#8CE08C",
-    "extra": [{"text":" 别饿死","color":"gray","italic":true}]
+    "color": "#8CE08C"
   },
   "effects": {
     "minecraft:tick": [
@@ -26,7 +25,7 @@
   },
   "slots": [
     "hand",
-    "armor"
+    "head"
   ],
   "supported_items": "#rks_lite:enchantable/totem_head",
   "weight": 1

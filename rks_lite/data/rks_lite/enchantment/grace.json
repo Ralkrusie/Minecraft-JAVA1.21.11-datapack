@@ -2,8 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "translate": "神圣恩典",
-    "color": "#FFFFAA",
-    "extra": [{"text":" 可我觉得这很神圣啊！","color":"gray","italic":true}]
+    "color": "#FFFFAA"
   },
 
   "effects": {

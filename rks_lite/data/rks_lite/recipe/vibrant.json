@@ -17,6 +17,9 @@
             "components": {
                 "minecraft:stored_enchantments": {
                     "rks_lite:vibrant": 1
+                },
+                "minecraft:enchantments": {
+                    "rks_lite:vibrant": 1
                 }
             },
         "count": 1

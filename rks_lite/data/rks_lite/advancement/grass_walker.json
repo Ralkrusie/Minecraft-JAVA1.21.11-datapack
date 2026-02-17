@@ -1,0 +1,41 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"grass_walker_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:grass_walker": 1}
+					    }
+			        }
+				]
+			}
+		},
+		"grass_walker_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:grass_walker": 2}
+					    }
+			        }
+				]
+			}
+		}
+	},
+	"requirements": [
+		["grass_walker_1", "grass_walker_2"]
+	],
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "万物竞发",
+		"description": "获得附魔书【草径行者】"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"desiccating_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:desiccating": 1}
+					    }
+			        }
+				]
+			}
+		},
+		"desiccating_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:desiccating": 2}
+					    }
+			        }
+				]
+			}
+		}
+	},
+	"requirements": [
+		["desiccating_1", "desiccating_2"]
+	],
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "脱水",
+		"description": "获得附魔书【干涸撕咬】"
+	}
+}
