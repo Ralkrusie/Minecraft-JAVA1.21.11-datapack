@@ -168,8 +168,8 @@
 					"to_apply": [
 						"minecraft:weakness"
 					],
-					"min_duration": 8,
-					"max_duration": 8,
+					"min_duration": 10,
+					"max_duration": 10,
 					"min_amplifier": {
 						"type": "minecraft:linear",
 						"base": 0.0,

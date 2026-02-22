@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "rks_lite数据包 for 1.21.11, v3.3",
+        "description": "rks_lite-原版内容扩展(v3.4)",
         "min_format": [94, 1],
         "max_format": [94, 1]
     }

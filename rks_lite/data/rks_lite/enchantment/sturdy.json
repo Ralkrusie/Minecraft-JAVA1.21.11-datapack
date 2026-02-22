@@ -27,6 +27,18 @@
           }
         }
       }
+    ],
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:armor_toughness",
+        "id": "rks_lite:enchantment.sturdy",
+        "operation": "add_multiplied_total"
+      }
     ]
   },
   "exclusive_set": "#minecraft:exclusive_set/armor",

@@ -9,30 +9,30 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+          "base": 1,
+          "per_level_above_first": 1
         },
         "attribute": "minecraft:movement_speed",
         "id": "rks_lite:enchantment.agility",
-        "operation": "add_value"
+        "operation": "add_multiplied_base"
       },
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+          "base": 1,
+          "per_level_above_first": 1
         },
         "attribute": "minecraft:jump_strength",
         "id": "rks_lite:enchantment.agility",
-        "operation": "add_value"
+        "operation": "add_multiplied_base"
       },
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.05,
-          "per_level_above_first": 0.05
+          "base": 1,
+          "per_level_above_first": 1
         },
-        "attribute": "minecraft:flying_speed",
+        "attribute": "minecraft:step_height",
         "id": "rks_lite:enchantment.agility",
         "operation": "add_value"
       },
@@ -46,7 +46,7 @@
         "id": "rks_lite:enchantment.agility",
         "operation": "add_value"
       },
-    {
+     {
         "amount": {
           "type": "minecraft:linear",
           "base": 5,
@@ -65,6 +65,16 @@
         "attribute": "minecraft:fall_damage_multiplier",
         "id": "rks_lite:enchantment.agility",
         "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:flying_speed",
+        "id": "rks_lite:enchantment.agility",
+        "operation": "add_multiplied_base"
       }
     ]
     

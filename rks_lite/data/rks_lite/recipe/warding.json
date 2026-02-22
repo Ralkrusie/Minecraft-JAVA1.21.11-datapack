@@ -6,11 +6,11 @@
             "ADA"
         ],
         "key":{
-            "A": "minecraft:golden_apple",
+            "A": "minecraft:netherite_ingot",
             "E": "minecraft:ward_armor_trim_smithing_template",
             "D": "minecraft:book",
             "B": "minecraft:nether_star",
-            "C": "netherite_ingot"
+            "C": "minecraft:enchanted_golden_apple"
         },
     "result": {
         "id": "minecraft:enchanted_book",

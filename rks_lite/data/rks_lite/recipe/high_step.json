@@ -17,6 +17,9 @@
             "components": {
                 "minecraft:stored_enchantments": {
                     "rks_lite:high_step": 1
+                },
+                "minecraft:enchantments": {
+                    "rks_lite:high_step": 1
                 }
             },
         "count": 1

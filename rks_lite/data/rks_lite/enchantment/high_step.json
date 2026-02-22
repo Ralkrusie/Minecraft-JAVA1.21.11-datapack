@@ -49,8 +49,9 @@
     "per_level_above_first": 11
   },
   "slots": [
-    "legs"
+    "legs",
+    "hand"
   ],
-  "supported_items": "#minecraft:enchantable/leg_armor",
+  "supported_items": "#rks_lite:enchantable/totem_leg",
   "weight": 1
 }

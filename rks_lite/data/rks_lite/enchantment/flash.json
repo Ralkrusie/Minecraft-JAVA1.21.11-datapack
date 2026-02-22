@@ -9,7 +9,7 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 2.5,
+          "base": 18,
           "per_level_above_first": 0.0
         },
         "attribute": "minecraft:movement_speed",
@@ -35,17 +35,7 @@
         "attribute": "minecraft:water_movement_efficiency",
         "id": "rks_lite:enchantment.flash",
         "operation": "add_value"
-      },
-      {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 1,
-          "per_level_above_first": 0.0
-        },
-        "attribute": "minecraft:attack_damage",
-        "id": "rks_lite:enchantment.flash",
-        "operation": "add_multiplied_base"
-      }    
+      }
     ]
   },
   "max_cost": {
