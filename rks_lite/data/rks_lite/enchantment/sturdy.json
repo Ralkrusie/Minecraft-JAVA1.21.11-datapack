@@ -37,7 +37,7 @@
         },
         "attribute": "minecraft:armor_toughness",
         "id": "rks_lite:enchantment.sturdy",
-        "operation": "add_multiplied_total"
+        "operation": "add_value"
       }
     ]
   },
