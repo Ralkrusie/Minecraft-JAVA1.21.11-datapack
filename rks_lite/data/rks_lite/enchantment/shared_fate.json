@@ -1,0 +1,67 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "命运同担",
+		"color": "#e0148b"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:weakness",
+					"min_duration": 5.0,
+					"max_duration": 5.0,
+					"min_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0,
+						"per_level_above_first": 1
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0,
+						"per_level_above_first": 1
+					}
+				}
+			},
+            {
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:weakness",
+					"min_duration": 5.0,
+					"max_duration": 5.0,
+					"min_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0,
+						"per_level_above_first": 0
+					},
+					"max_amplifier": {
+						"type": "minecraft:linear",
+						"base": 0,
+						"per_level_above_first": 0
+					}
+				}
+			}
+		]
+	},
+	"exclusive_set": "rks_lite:fight_me",
+	"max_cost": {
+		"base": 30,
+		"per_level_above_first": 10
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#rks_lite:enchantable/all_weapons",
+	"primary_items": "#rks_lite:enchantable/all_weapons",
+	"weight": 2
+}

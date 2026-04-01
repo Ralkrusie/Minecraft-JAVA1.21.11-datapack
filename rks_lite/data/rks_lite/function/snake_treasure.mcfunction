@@ -1,0 +1,1 @@
+give @s enchanted_book[stored_enchantments={"rks_lite:snake_bite":1},max_stack_size=99] 600

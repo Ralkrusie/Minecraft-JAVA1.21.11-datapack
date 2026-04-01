@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "暗影庇护",
+    "color": "#b400fb"
+  },
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "rks_lite:dark"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
+
+  },
+  "exclusive_set": "minecraft:protection",
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#rks_lite:enchantable/totem_chest",
+  "weight": 10
+}

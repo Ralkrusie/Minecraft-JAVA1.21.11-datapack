@@ -1,0 +1,41 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"shared_fate_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:shared_fate": 1}
+					    }
+			        }
+				]
+			}
+		},
+		"shared_fate_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:shared_fate": 2}
+					    }
+			        }
+				]
+			}
+		}
+	},
+	"requirements": [
+		["shared_fate_1", "shared_fate_2"]
+	],
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "命运同担",
+		"description": "获得附魔书【命运同担】"
+	}
+}

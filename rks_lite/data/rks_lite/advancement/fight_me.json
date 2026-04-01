@@ -1,0 +1,41 @@
+{
+	"parent": "rks_lite:first_entry",
+	"criteria": {
+		"fight_me_1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:fight_me": 1}
+					    }
+			        }
+				]
+			}
+		},
+		"fight_me_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:enchanted_book"],
+						"components": {
+							"minecraft:stored_enchantments": {"rks_lite:fight_me": 2}
+					    }
+			        }
+				]
+			}
+		}
+	},
+	"requirements": [
+		["fight_me_1", "fight_me_2"]
+	],
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": "与我一战！",
+		"description": "获得附魔书【与我一战】"
+	}
+}

@@ -1,8 +1,8 @@
 {
 	"anvil_cost": 4,
 	"description": {
-		"translate": "干涸撕咬",
-		"color": "#C2A36C"
+		"translate": "灭除之刃",
+		"color": "light_purple"
 	},
 	"effects": {
 		"minecraft:post_attack": [
@@ -10,30 +10,27 @@
 				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
-					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:slowness",
-					"min_duration": 5.0,
-					"max_duration": 5.0,
-					"min_amplifier": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "rks_lite:zmq",
+					"min_damage": {
 						"type": "minecraft:linear",
-						"base": 1,
-						"per_level_above_first": 2
+						"base": 1.0,
+						"per_level_above_first": 1.0
 					},
-					"max_amplifier": {
+					"max_damage": {
 						"type": "minecraft:linear",
-						"base": 1,
-						"per_level_above_first": 2
+						"base": 1.0,
+						"per_level_above_first": 1.0
 					}
 				}
 			}
 		]
 	},
-	"exclusive_set": "#rks_lite:exclusive_set/debuff",
 	"max_cost": {
 		"base": 20,
 		"per_level_above_first": 10
 	},
-	"max_level": 2,
+	"max_level": 5,
 	"min_cost": {
 		"base": 10,
 		"per_level_above_first": 10

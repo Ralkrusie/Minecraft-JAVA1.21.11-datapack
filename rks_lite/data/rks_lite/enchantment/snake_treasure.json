@@ -1,0 +1,35 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "藏蛇图",
+		"color": "#e03d02"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "attacker",
+				"effect": {
+                    "type": "run_function",
+                    "function": "rks_lite:snake_treasure"
+				}
+			}
+		]
+	},
+	"exclusive_set": "#rks_lite:exclusive_set/debuff",
+	"max_cost": {
+		"base": 40,
+		"per_level_above_first": 10
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#rks_lite:enchantable/all_weapons",
+	"primary_items": "#rks_lite:enchantable/all_weapons",
+	"weight": 2
+}

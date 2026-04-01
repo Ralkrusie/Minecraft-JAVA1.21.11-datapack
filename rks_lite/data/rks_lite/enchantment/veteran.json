@@ -1,0 +1,65 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "老资历打法",
+		"color": "light_purple"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"enchanted": "attacker",
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:damage_entity",
+					"damage_type": "minecraft:player_attack",
+					"min_damage": {
+						"type": "minecraft:linear",
+						"base": 1.0,
+						"per_level_above_first": 1.0
+					},
+					"max_damage": {
+						"type": "minecraft:linear",
+						"base": 1.0,
+						"per_level_above_first": 1.0
+					}
+				}
+			}
+		],
+        "minecraft:attributes": [
+            {
+                "amount": {
+                "type": "minecraft:linear",
+                "base": 100,
+                "per_level_above_first": 0
+                },
+                "attribute": "minecraft:attack_speed",
+                "id": "rks_lite:enchantment.test",
+                "operation": "add_value"
+            },
+			{
+                "amount": {
+                "type": "minecraft:linear",
+                "base": -0.999999,
+                "per_level_above_first": 0
+                },
+                "attribute": "minecraft:attack_damage",
+                "id": "rks_lite:enchantment.veteran",
+                "operation": "add_multiplied_total"
+            }
+        ]
+	},
+	"max_cost": {
+		"base": 20,
+		"per_level_above_first": 10
+	},
+	"max_level": 8,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 10
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#rks_lite:enchantable/all_weapons",
+	"weight": 1
+}
