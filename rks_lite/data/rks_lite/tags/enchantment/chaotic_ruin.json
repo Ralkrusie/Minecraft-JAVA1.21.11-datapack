@@ -12,6 +12,9 @@
         "rks_lite:taiko",
         "rks_lite:vibrant",
         "rks_lite:hand_of_creation",
-        "rks_lite:sturdy"
+        "rks_lite:sturdy",
+        "rks_lite:shared_fate",
+        "rks_lite:fight_me",
+        "rks_lite:snake_bite"
     ]
 }

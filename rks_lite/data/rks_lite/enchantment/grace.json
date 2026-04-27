@@ -60,16 +60,6 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.005,
-          "per_level_above_first": 0.005
-        },
-        "attribute": "minecraft:movement_speed",
-        "id": "rks_lite:enchantment.grace",
-        "operation": "add_value"
-      },
-      {
-        "amount": {
-          "type": "minecraft:linear",
           "base": 0.2,
           "per_level_above_first": 0.2
         },

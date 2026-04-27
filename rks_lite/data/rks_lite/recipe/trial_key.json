@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:trial_key"
+    ],
+    "result": {
+        "id": "minecraft:trial_key",
+            "components": {
+                "minecraft:enchantments": {
+                    "rks_lite:auto_reward": 1
+                },
+                "max_stack_size": 1,
+                "lore": [
+                {
+                    "text": "对着方块左键使用以换取等效试炼奖励",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "务必保证背包有至少5格空位！",
+                    "color": "red",
+                    "italic": false
+                }]
+            },
+        "count": 1
+    }
+}

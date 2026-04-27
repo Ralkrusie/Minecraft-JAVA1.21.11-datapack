@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_rare",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_common",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_common"
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/trial_chambers/reward_unique",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 25
+        }
+      ]
+    }
+  ]
+}

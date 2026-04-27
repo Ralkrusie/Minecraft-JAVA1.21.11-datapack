@@ -5,3 +5,4 @@ execute as @a unless score @s joined matches 1 run scoreboard players set @s war
 execute as @a unless score @s joined matches 1 run scoreboard players set @s silence 0
 execute as @a unless score @s joined matches 1 run scoreboard players set @s joined 1
 
+function rks_lite:silence

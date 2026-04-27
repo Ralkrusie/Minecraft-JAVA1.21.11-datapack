@@ -69,12 +69,12 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.01,
-          "per_level_above_first": 0.01
+          "base": 0.1,
+          "per_level_above_first": 0.1
         },
         "attribute": "minecraft:movement_speed",
         "id": "rks_lite:enchantment.contract",
-        "operation": "add_value"
+        "operation": "add_multiplied_base"
       }
     ]
     
